@@ -1,0 +1,20 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 16px;
+    position: relative;
+    padding: 1em;
+    margin: auto;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.titulo{
+    font-size: 48px;
+}
+
+.texto{
+    font-size: 28px;
+    text-align: center;
+}
