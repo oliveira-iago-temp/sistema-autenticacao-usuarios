@@ -1,11 +1,9 @@
-import React from 'react'
-import Card from './components/card/index.tsx';
+// src/App.tsx
+import React from 'react';
+import AppRoutes from './router';
 
-
-const App: React.FC = () => {
-  return (
-    <Card />
-  );
+function App() {
+  return <AppRoutes />;
 }
 
 export default App;
