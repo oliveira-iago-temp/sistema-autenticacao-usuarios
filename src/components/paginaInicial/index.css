@@ -1,0 +1,82 @@
+/* src/components/paginainicial/index.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.bem-vindo {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.perfil-info {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+
+.pagina-container {
+    font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.pagina-box {
+    font-family: 'Arial', sans-serif;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.pagina-box h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.pagina-botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.pagina-botoes button {
+  padding: 0.75rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+.pagina-botoes button:hover {
+  background-color: #45a049;
+}
+
+.botao-sair {
+  padding: 0.6rem 1rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao-sair:hover {
+  background-color: #c82333;
+}

@@ -1,12 +1,10 @@
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+/* src/index.css */
+body {
+  background-color: #f3f3f3;
   margin: 0;
-  padding: 20px;
+  font-family: 'Arial', sans-serif;
 }
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Arial', sans-serif;
 }

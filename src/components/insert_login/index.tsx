@@ -1,3 +1,4 @@
+//src/components/insert_login/index.tsx
 import React, { useState } from 'react';
 import axios from 'axios';
 import './input.css';
@@ -18,7 +19,7 @@ function Login() {
     setSucesso('');
 
     try {
-      const res = await axios.post('http://localhost:3001/api/auth/login', { email, senha });
+      const res = await axios.post('http://localhost:3001/api/login', { email, senha });
 
       // Salva o token no localStorage
       localStorage.setItem('token', res.data.token);
