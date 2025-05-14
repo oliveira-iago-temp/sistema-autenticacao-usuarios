@@ -18,7 +18,7 @@ function Login() {
     setSucesso('');
 
     try {
-      const res = await axios.post('http://localhost:3001/api/login', { email, senha });
+      const res = await axios.post('http://localhost:3001/api/auth/login', { email, senha });
 
       // Salva o token no localStorage
       localStorage.setItem('token', res.data.token);

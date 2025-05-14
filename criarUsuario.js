@@ -6,6 +6,7 @@ const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('./database.db');
 
 // Dados do novo usuário
+const nome = 'Usuario Master'
 const email = 'teste@email.com';
 const senha = '123456';
 
@@ -17,8 +18,8 @@ bcrypt.hash(senha, 10, (err, hash) => {
   }
 
   db.run(
-    'INSERT INTO usuario (email, senha_hash) VALUES (?, ?)',
-    [email, hash],
+    'INSERT INTO usuario (nome, email, senha_hash) VALUES (?, ?, ?)',
+    [nome, email, hash],
     (err) => {
       if (err) {
         console.error('Erro ao inserir usuário:', err.message);
